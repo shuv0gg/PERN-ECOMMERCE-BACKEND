@@ -1,6 +1,17 @@
 {
+  "name": "pern-ecommerce-backend",
+  "version": "1.0.0",
+  "description": "Backend for E-commerce project",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
   "dependencies": {
-    "dotenv": "^17.2.3",
-    "pg": "^8.16.3"
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.11",
+    "pg": "^8.13.1"
   }
 }
