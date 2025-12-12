@@ -1,7 +1,7 @@
 import express from "express";
 import { z } from "zod";
 import bcrypt from "bcrypt";
-import prisma from "./prisma.js";
+import { prisma } from "./prisma.js";
 const app = express();
 
 app.use(express.json());
